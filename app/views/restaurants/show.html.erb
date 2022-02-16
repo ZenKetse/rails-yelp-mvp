@@ -8,7 +8,7 @@
 <p><%= @restaurant.address %></p>
 <h3>Reviews</h3>
 <% @restaurant.reviews.each do |review| %>
-<p><%= review.content %> - <%= review.rating %></p>
+<p><%= review.content %> - <%= review.rating %> stars</p>
 <% end %>
 
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
